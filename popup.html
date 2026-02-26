@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { width: 250px; font-family: Arial; padding: 15px; }
+    .box { background: #f4f4f4; padding: 10px; border-radius: 8px; margin-bottom: 10px; }
+    .title { font-weight: bold; }
+    .safe { color: green; }
+    .danger { color: red; }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <div class="title">AI Phishing Score</div>
+    <div id="score">Loading...</div>
+  </div>
+
+  <div class="box">
+    <div class="title">Vulnerabilities</div>
+    <div id="vulns">Scanning...</div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
